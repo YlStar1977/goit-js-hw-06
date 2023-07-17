@@ -5,6 +5,7 @@ changeColorButton.addEventListener("click", changBackgroundColor);
 function changBackgroundColor() {
   const randomColor = getRandomHexColor();
   colorSpan.textContent = randomColor;
+ document.body.style.backgroundColor = randomColor;
 }
 
 function getRandomHexColor() {

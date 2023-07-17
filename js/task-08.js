@@ -10,9 +10,11 @@ function handleSubmit(event) {
         alert("Всі поля повинні бути заповнені");
         return;
     }
-}
 
-const loginData = {
+    const loginData = {
     email: emailInput.value,
     password: passwordInput.value,
 };
+console.log(loginData);
+}
+
